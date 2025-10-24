@@ -9,16 +9,49 @@
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
+    <h1>Taulukkosivu</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+      <a href="index.html">Etusivu</a>
+      <a href="image.html">Kuva</a>
+      <a href="form.html">Lomake</a>
+      <a href="table.html">Taulukko</a>
     </nav>
   </header>
   <main>
     <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
+     <table>
+        <caption>Tässä on datataulukko</caption>
+        <thead>
+          <tr>
+          <th>Data 1</th>
+          <th>Data 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>100Gb</td>
+            <td>100mb/s</td>
+          </tr>
+          <tr>
+            <td>250Mb</td>
+            <td>50mb/s</td>
+          </tr>
+          <tr>
+            <td>10Tb</td>
+            <td>500mb/s</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Määrä</td>
+            <td>Nopeus</td>
+          </tr>
+        </tfoot>
+     </table>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+    <p>Tässä on sivun alatunniste.</p>
+    <button type="button">Olen painike.</button>
   </footer>
 </body>
 </html>

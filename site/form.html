@@ -9,21 +9,31 @@
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Lomake-sivun H1 --></h1>
+    <h1>Lomakesivu</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+      <a href="index.html">Etusivu</a>
+      <a href="image.html">Kuva</a>
+      <a href="form.html">Lomake</a>
+      <a href="table.html">Taulukko</a>
     </nav>
   </header>
   <main>
-    <!-- TODO: Luo <form>:
-         - lisää label for + id parit
-         - järkevät type-arvot (email, number, tms.)
-         - method ja action attribuutit
-         - submit-painike
-    -->
+    <p>Lomake</p>
+    <form action="#" method="get">
+      <label for="Etunimi">Etunimi</label><br>
+      <input type="text" id="Etunimi" name="Etunimi"><br>
+      <label for="Sukunimi">Sukunimi</label><br>
+      <input type="text" id="Sukunimi" name="Sukunimi"><br>
+      <label for="Email">Sähköposti</label><br>
+      <input type="email" id="Email" name="email"><br>
+      <label for="Numero">Numero</label><br>
+      <input type="number" id="Numero" name="Numero"><br>
+      <button type="submit">Lähetä</button>
+    </form>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+    <p>Tässä on sivun alatunniste.</p>
+    <button type="button">Olen painike.</button>
   </footer>
 </body>
 </html>
